@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="average_speed">Průměrná rychlost</string>
+    <string name="continue_">Pokračovat</string>
+    <string name="czech">Čeština</string>
+    <string name="delete_track">Smazat trasu</string>
+    <string name="deleted">Smazáno</string>
+    <string name="difficulty">Obtížnost</string>
+    <string name="distance">Vzdálenost</string>
+    <string name="download">Stáhnout</string>
+    <string name="english">Angličtina</string>
+    <string name="expected_time">Předpokládaný čas</string>
+    <string name="length">Délka</string>
+    <string name="my_tracks">Mé tratě</string>
+    <string name="name">Název</string>
+    <string name="online_tracks">Online tratě</string>
+    <string name="operation_unsuccessful">Operace se nezdařila</string>
+    <string name="pause">Pauza</string>
+    <string name="rating">Hodnocení</string>
+    <string name="saved">Uloženo</string>
+    <string name="see_all_statistics">Všechny statistiky</string>
+    <string name="select_language">Zvolit Jazyk</string>
+    <string name="select_units">Zvolit jednotky</string>
+    <string name="send">Poslat</string>
+    <string name="set_language">Nastavit Jazyk</string>
+    <string name="set_units">Nastavit jednotky</string>
+    <string name="settings">Nastavení</string>
+    <string name="some_nice_rating">nějaké pěkné hodnocení</string>
+    <string name="start">Spustit</string>
+    <string name="start_track">Spustit trasu</string>
+    <string name="statistics">Statistiky</string>
+    <string name="stop">Konec</string>
+    <string name="time">Čas</string>
+    <string name="title_activity_changing">Měnící Aktivita</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_dashboard">Konzole</string>
+    <string name="title_home">HlavníObrazovka</string>
+    <string name="title_notifications">Oznámení</string>
+    <string name="total_distance">Celková vzdálenost</string>
+    <string name="total_runs">Počet běhů</string>
+    <string name="total_time">Celkový čas</string>
+    <string name="track_information">Informace o trati</string>
+    <string name="tracks">Tratě</string>
+    <string name="tracks_online">Online Tratě</string>
+
+    <string-array name="string_array_languages">
+        <item>Čeština</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="string_array_units">
+        <item>Km</item>
+        <item>Mil</item>
+    </string-array>
+    <string name="leave_start_text">Opravdu chceš zpět? (zastaví to sledování)</string>
+    <string name="no">Ne</string>
+    <string name="yes">Ano</string>
+    <string name="easy">Lehká</string>
+    <string name="hard">Těžká</string>
+    <string name="medium">Středně Těžká</string>
+    <string name="name_already_used">Jméno už je použito</string>
+    <string name="name_twodots">Jméno:</string>
+    <string name="there_was_an_error_on_the_server">Chyba při odesílání na server</string>
+    <string name="would_you_like_to_save_on_server">Chceš uložit trasu na server a udělat ji veřejnou?</string>
+    <string name="already_rated">již ohodnoceno</string>
+    <string name="enable_indian_run_mode">Povolit mód indiánského běhu</string>
+    <string name="invalid_name">Neplatné jméno</string>
+    <string name="not_granted">nebyla udělena, ukončuji</string>
+    <string name="required_permission">Potřebné povolení</string>
+    <string name="select_times_for_run">Vyber čas pro běh</string>
+    <string name="select_times_for_walk">Vyber čas pro chůzi</string>
+    <string name="sent">Posláno</string>
+    <string name="sprinter_indian_run">Sprinter: Indiánský běh</string>
+    <string name="you_should_run">Měl bys běžet</string>
+    <string name="you_should_walk">Měl bys jít</string>
+    <string name="custom">Vlastní</string>
+
+</resources>

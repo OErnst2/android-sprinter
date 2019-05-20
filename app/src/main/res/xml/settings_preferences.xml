@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+            android:defaultValue="English"
+            android:dialogTitle="@string/set_language"
+            android:entries="@array/string_array_languages"
+            android:entryValues="@array/string_array_languages"
+            android:key="LanguagePreferences"
+            android:summary="English"
+            android:title="@string/select_language" />
+
+    <ListPreference
+            android:defaultValue="Km"
+            android:dialogTitle="@string/set_units"
+            android:entries="@array/string_array_units"
+            android:entryValues="@array/string_array_units"
+            android:key="UnitsPreferences"
+            android:summary="Km"
+            android:title="@string/select_units" />
+
+    <PreferenceCategory android:title="Indian Run">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="ModePreferenceSwitch"
+            android:title="@string/enable_indian_run_mode"/>
+
+        <SeekBarPreference
+                android:key="RunTimeSeekBarPreference"
+                android:title="@string/select_times_for_run"
+                android:enabled="false"
+                android:defaultValue="1"
+                android:max="30"
+                app:min="1"
+                app:showSeekBarValue="true"
+        />
+
+        <SeekBarPreference
+                android:key="WalkTimeSeekBarPreference"
+                android:title="@string/select_times_for_walk"
+                android:enabled="false"
+                android:defaultValue="1"
+                android:max="30"
+                app:min="1"
+                app:showSeekBarValue="true"
+        />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

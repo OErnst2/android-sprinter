@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/item"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_statistics"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:elevation="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/shape_ripple"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+            android:id="@+id/icon"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/city"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+
+        <TextView
+                android:id="@+id/name"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                tools:text="@string/name"/>
+
+        <TextView
+                android:id="@+id/length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/distance"/>
+
+        <TextView
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/rating"/>
+        <TextView
+                android:id="@+id/difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/difficulty"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

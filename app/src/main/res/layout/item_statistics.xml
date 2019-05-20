@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/shape_statistics"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+
+        <TextView
+                android:id="@+id/name"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                tools:text="@string/name"/>
+
+        <TextView
+                android:id="@+id/length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/distance"/>
+
+        <TextView
+                android:id="@+id/timeSec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/rating"/>
+        <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/rating"/>
+        <TextView
+                android:id="@+id/difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/rating"/>
+        <TextView
+                android:id="@+id/averageSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                tools:text="@string/rating"/>
+
+
+    </LinearLayout>
+
+    <ImageButton android:layout_width="0dp"
+                 android:layout_weight="1"
+                 android:layout_marginEnd="10dp"
+                 android:foreground="@drawable/shape_ripple"
+                 android:src="@drawable/ic_delete_black_24dp"
+                 android:background="#00000000"
+                 android:id="@+id/delete_button"
+                 android:layout_height="wrap_content"/>
+</LinearLayout>

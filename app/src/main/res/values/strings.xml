@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name" translatable="false">Sprinter</string>
+    <string name="tracks">Tracks</string>
+    <string name="title_activity_changing">ChangingActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="settings">Settings</string>
+    <string name="distance">Distance</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="rating">Rating</string>
+    <string name="name">Name</string>
+    <string name="send">Send</string>
+    <string name="download">Download</string>
+    <string name="some_nice_rating">Some nice rating</string>
+    <string name="track_information">Track information</string>
+    <string name="start_track">start track</string>
+    <string name="delete_track">delete track</string>
+    <string name="start">Start</string>
+    <string name="tracks_online">Tracks Online</string>
+    <string name="my_tracks">My Tracks</string>
+    <string name="statistics">Statistics</string>
+    <string name="total_distance">Total distance</string>
+    <string name="total_time">Total time</string>
+    <string name="average_speed">Average speed</string>
+    <string name="total_runs">Total Runs</string>
+    <string name="see_all_statistics">See all statistics</string>
+    <string name="pause">pause</string>
+    <string name="stop">Stop</string>
+    <string name="online_tracks">Online Tracks</string>
+    <string name="select_units">Select Units</string>
+    <string name="set_units">Set Units</string>
+    <string name="select_language">Select Language</string>
+    <string name="set_language">Set Language</string>
+    <string name="czech">Czech</string>
+    <string name="english">English</string>
+    <string name="length">Length</string>
+    <string name="expected_time">Expected time</string>
+    <string name="continue_">Continue</string>
+    <string name="deleted">Deleted</string>
+    <string name="saved">Saved</string>
+    <string name="operation_unsuccessful">Operation unsuccessful</string>
+    <string name="time">Time</string>
+    <string name="leave_start_text">Are you sure to leave Start? (It stops tracking)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="name_already_used">Name already used</string>
+    <string name="there_was_an_error_on_the_server">There was an error on the server</string>
+    <string name="name_twodots">Name:</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="would_you_like_to_save_on_server">Would you like to save the track on the server and make it public?
+    </string>
+    <string name="required_permission">"Required permission "</string>
+    <string name="not_granted">not granted, exiting</string>
+    <string name="invalid_name">Invalid name</string>
+    <string name="sent">Sent</string>
+    <string name="already_rated">Already rated.</string>
+    <string name="you_should_run">You should run</string>
+    <string name="you_should_walk">You Should Walk</string>
+    <string name="sprinter_indian_run">Sprinter: IndianRun</string>
+    <string name="enable_indian_run_mode">Enable Indian Run Mode</string>
+    <string name="select_times_for_run">Select times of run (minutes)</string>
+    <string name="select_times_for_walk">Select times of walk (minutes)</string>
+    <string name="custom">Custom</string>
+
+    <string-array name="string_array_languages">
+        <item>Čeština</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="string_array_units">
+        <item>Km</item>
+        <item>Mil</item>
+    </string-array>
+
+</resources>
